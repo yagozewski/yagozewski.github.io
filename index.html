@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title></title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js" ></script>
+        <style>
+            section{
+                width: 99.1vw;
+                height: 100vh;
+                padding: 2%;
+            }
+
+            img{
+                width: 33%;
+                height: 20px;
+                transition: opacity .5s ease-in-out;
+            }
+
+            img:hover{
+                opacity: .5;
+            }
+
+            #home{
+                padding: 20% 0 0 0;
+                background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ), url('images/campus.jpg');
+                background-size: 100% 100%;
+            }
+
+            #work{
+                background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('images/about.jpg');
+                background-size: 100% 100%;
+            }
+
+            #about{
+                background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9) ), url('images/contact.jpg');
+                background-size: 100% 100%;
+            }
+
+            #contact{
+                background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9) ), url('images/links.jpg');
+                background-size: 100% 100%;
+            }
+
+            .cl-white{
+                color: white
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <ul class="nav navbar-nav hidden-xs">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work">Contact me</a></li>
+                <li><a href="#about">What about me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--hamburgao aqui-->
+        </nav>
+
+        <section id="home" class="cl-white text-center">
+            <h1>Hello there<!--General kenobi--> ;)</h6></h1>
+            <p class="lead">My name is Yago and I'm a software developer living in S&atilde;o Paulo - Brazil</p>
+            <button class="btn btn-default"><a href="#contact">Contact me!</a></button>
+        </section>
+        
+        <section id="work" class="cl-white">
+            <div class="container" style="background: transparent black">
+                <div class="page-header">
+                    <h1 class="text-center">My work:</h1>
+                </div>
+                
+                <h2 class="text-center">Coming soon.</h2>
+
+                <!--<button class="btn btn-success pull-right" style="margin-top: 10px">View more ;)</button>-->
+            </div>
+        </section>
+        
+        <section id="about" class="cl-white">
+            <div class="container" style="width: 50%">
+                <h1 class="text-center" style="margin-top: 10%">About me:</h1>
+                <p class="lead text-center" style="margin-top: 30%">[Why is It so hard to describe yourself?]</p>
+                <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Utrum igitur tibi litteram videor an totas paginas commovere? Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere virtutem. Duo Reges: constructio interrete. Itaque hic ipse iam pridem est reiectus; Iam in altera philosophiae parte. Cum salvum esse flentes sui respondissent, rogavit essentne fusi hostes.</p>
+            </div>
+        </section>
+        
+        <section id="contact" class="cl-white" style="height: 40vh">
+            <h3 class="text-center">There's a LOT to do here</h3>
+            <p class="lead text-center">For now you can reach me by e-mail(yagozewski@gmail.com) or <a href="https://twitter.com/YagoTomaszewski">Twitter</a>.</p>
+        </section>
+    </body>
+</html>
