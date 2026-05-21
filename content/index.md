@@ -22,6 +22,7 @@ Off the screen: jiu jitsu, kali eskrima, bouldering, travelling. History and phi
 
 `@` [yagozewski@gmail.com](mailto:yagozewski@gmail.com) &nbsp;|&nbsp;
 `//` [linkedin/yago-tomaszewski](https://linkedin.com/in/yago-tomaszewski) &nbsp;|&nbsp;
+`//` [CV](/cv-yago-tomaszewski.pdf) &nbsp;|&nbsp;
 `{}` [github/yagozewski](https://github.com/yagozewski)
 
 </div>
