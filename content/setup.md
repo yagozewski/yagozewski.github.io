@@ -13,7 +13,7 @@ NVIDIA GeForce GTX 1060 6GB (GP106)
 Windows 11 (previously ran EndeavourOS; reverted due to GTX 1060 / kernel panic under load)
 
 ### Role
-Daily driver. 4-monitor output. Compute handled by a separate Linux machine (planned: RTX 3060 12GB or RTX 3090 24GB). 
+Daily driver. 4-monitor output. Compute handled by a separate Linux machine (planned: RTX 3060 12GB or RTX 3090 24GB - NvLink with two sounds interesting). 
 
 
 
